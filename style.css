@@ -86,3 +86,32 @@ ul li a:hover {
     from {opacity: .4}
     to {opacity: 1}
   }
+  input, textarea {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-family: coolfont;
+    border:cornflowerblue;
+    border-width: 5px;
+    border-style: solid;
+   }
+   
+   button {
+    padding: 10px 25px;
+    background-color: navy;
+    color: white;
+    border: none;
+    font-family: coolFont;
+    border:cornflowerblue;
+    border-width: 5px;
+    border-style: solid;
+   }
+   
+   button:hover {
+    background-color: darkblue;
+   }
+   @font-face {
+    font-family: coolFont;
+    src: url(Oswald-VariableFont_wght.ttf);
+   }
+   
